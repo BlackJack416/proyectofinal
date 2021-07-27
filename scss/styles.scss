@@ -1,0 +1,232 @@
+ul{
+	text-align: center;
+}
+
+ul{
+
+  ul{
+     position: absolute;
+     display: none;
+  }
+}
+
+ul{
+
+  ul{
+
+    li{
+     display: block;
+    }
+  }
+}
+
+ul{
+  .Desplegable:hover ul{
+    display: block;
+    background: #fdb827;
+    border: 2px solid black;
+    border-radius: 2px;
+     height: 100px; width: 100px;
+   padding: 20px;
+   background-color: gold;
+  }
+}
+
+
+.Desplegable{
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    position: relative;
+    font-size: 14px;
+   transition: all 3s; 
+    background-color: black;  
+}
+
+body{
+display: flex;
+   height: 800px;
+   flex-direction: column;
+   padding: 1em;
+background-image:
+url(https://www.gentedepaz.es/wp-content/uploads/2016/02/Fondos-de-colores-lisos.jpg)
+}
+
+.imagenbody{
+height: 1700px;
+}
+
+header {
+	 border: 2px solid black;
+	 color: fuchsia;
+	 height: 100px;
+	 font-family: "Atma", cursive;
+   background-image: linear-gradient(brown, salmon);
+}
+
+footer{
+	border: 2px solid black;
+	color: fuchsia;
+	 height: 100px;
+	 font-family: "Atma", cursive;
+background-image: linear-gradient(brown, salmon);
+}
+
+a{
+font-family: "Atma", cursive;
+}
+
+form{
+	font-family: "Atma", cursive;
+}
+
+.titulo{
+	color: purple;
+	text-align: center;
+	font-style: italic;
+}
+
+.texto{
+	text-align: center;
+	font-style: italic;
+}
+
+.precios{
+font-style: italic;
+text-align: left;
+}
+
+.otrotitulo{
+	color: purple;
+	font-style: italic;
+    text-align: center;
+}
+
+.texto2{
+	font-style: italic;
+    text-align: center;
+}
+
+.emprendedora{
+	text-align: center;
+}
+
+.eltrencito{
+	text-align: left;
+}
+
+@media screen and (max-width: 320px) {
+   html {
+    font-size: 10px;
+  }
+  html .menu{
+
+  }
+  html .texto{
+
+  }
+  html .footer{
+
+  }
+  html .precios1{
+
+  }
+  html .carousel{
+
+  }
+  html .info{
+
+  }
+}
+ @media screen and (max-width: 360px) {
+   html {
+    font-size: 11px;
+  }
+  html .menu{
+
+  }
+  html .texto{
+
+  }
+  html .footer{
+
+  }
+  html .precios1{
+
+  }
+  html .carousel{
+
+  }
+  html .info{
+
+  }
+}
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 12px;
+  }
+  html .menu{
+
+  }
+  html .texto{
+
+  }
+  html .footer{
+
+  }
+  html .precios1{
+
+  }
+  html .carousel{
+
+  }
+  html .info{
+  	
+  }
+}
+@media screen and (max-width: 650px) {
+  html {
+    font-size: 13px;
+  }
+  html .menu{
+
+  }
+  html .texto{
+
+  }
+  html .footer{
+
+  }
+  html .precios1{
+
+  }
+  html .carousel{
+
+  }
+  html .info{
+  	
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+  html .menu{
+
+  }
+  html .texto{
+
+  }
+  html .footer{
+
+  }
+  html .precios1{
+
+  }
+  html .carousel{
+
+  }
+  html .info{
+  	
+  }
+}
